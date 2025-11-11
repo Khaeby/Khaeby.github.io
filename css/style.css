@@ -956,9 +956,21 @@ form label {
 
 .simply-countdown {
   /* The countdown */
-  margin-bottom: 2em;
-  margin-top: 2em;
+  margin: 2em auto;           /* centers the block horizontally */
+  display: flex;              /* enables flex layout */
+  justify-content: center;    /* centers countdown horizontally */
+  align-items: center;        /* centers vertically if needed */
+  text-align: center;         /* aligns text elements inside */
+  width: 100%;                /* ensures responsiveness */
+}
 
+/* Optional tweak for small screens */
+@media (max-width: 768px) {
+  .simply-countdown {
+    flex-direction: column;
+    gap: 10px; /* adds breathing space between digits */
+  }
+}
 
 }
 
