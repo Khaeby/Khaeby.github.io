@@ -11,6 +11,20 @@
 * 	Template Style 
 *
 * ======================================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fix anchor offset for sections */
+[id]::before {
+  content: "";
+  display: block;
+  height: 80px; /* same or slightly larger than your nav height */
+  margin-top: -80px;
+  visibility: hidden;
+}
+
 body {
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
