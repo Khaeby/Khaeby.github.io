@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Khaeby Wedding//EN
+BEGIN:VEVENT
+UID:khaeby-wedding-2026@example.com
+DTSTAMP:20250419T190000Z
+DTSTART:20260419T190000Z
+DTEND:20260420T010000Z
+SUMMARY:Khaela & Kerby's Wedding
+DESCRIPTION:Join us for a wedding inspired by European romance and timeless elegance.
+LOCATION:Liriodendron Mansion, 502 W Gordon St, Bel Air, MD 21014
+END:VEVENT
+END:VCALENDAR
