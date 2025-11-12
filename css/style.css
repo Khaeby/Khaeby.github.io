@@ -1812,5 +1812,15 @@ form label {
   opacity: 0;
 }
 
+/* Hide navigation completely on mobile */
+@media (max-width: 768px) {
+  #fh5co-header nav,
+  .navbar,
+  .fh5co-nav-toggle {
+    display: none !important;
+  }
+}
+
+
 /*# sourceMappingURL=style.css.map */
 
