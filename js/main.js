@@ -155,6 +155,27 @@
 		});
 	};
 
+	var galleryCarousel = function(){
+		var owl = $('#fh5co-gallery-list.fh5co-gallery-carousel');
+		if ( !owl.length ) return;
+		owl.owlCarousel({
+			items: 3,
+			loop: true,
+			margin: 10,
+			nav: true,
+			dots: true,
+			autoplay: true,
+			autoplayTimeout: 4000,
+			autoplayHoverPause: true,
+			smartSpeed: 600,
+			responsive: {
+				0: { items: 1 },
+				600: { items: 2 },
+				1000: { items: 3 }
+			}
+		});
+	};
+
 
 	var goToTop = function() {
 
@@ -222,6 +243,7 @@
 		contentWayPoint();
 		dropdown();
 		testimonialCarousel();
+			galleryCarousel();
 		goToTop();
 		loaderPage();
 		counter();
