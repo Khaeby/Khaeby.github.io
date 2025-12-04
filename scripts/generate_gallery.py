@@ -19,7 +19,7 @@ IMAGES_DIR = ROOT / 'images'
 INDEX_FILE = ROOT / 'index.html'
 
 VALID_EXT = {'.jpg', '.jpeg', '.png', '.gif', '.webp'}
-PREFIX = 'khaeby'
+PREFIX = 'europe_khaeby'
 
 T_START = '<!-- GALLERY-START -->'
 T_END = '<!-- GALLERY-END -->'
